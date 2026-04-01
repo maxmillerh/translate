@@ -105,6 +105,9 @@ function ShowShifr() {
 			case "/":
 				arr[i] = ".";
 				break;
+			case "&":
+				arr[i] = "?";
+				break;
 			case "?":
 				arr[i] = ",";
 				break;
